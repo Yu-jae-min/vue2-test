@@ -7,6 +7,8 @@
         <router-link :to="TEST_TWO_PATH">2</router-link>
         <router-link :to="TEST_THREE_PATH">3</router-link>
         <router-link :to="TEST_FOUR_PATH">4</router-link>
+        <router-link :to="TEST_FIVE_PATH">5</router-link>
+        <router-link :to="TEST_SIX_PATH">6</router-link>
       </nav>
     </header>
 
@@ -19,10 +21,12 @@
 <script>
 import {
   HOME_PATH,
+  TEST_FIVE_PATH,
   TEST_FOUR_PATH,
   TEST_ONE_PATH,
   TEST_THREE_PATH,
   TEST_TWO_PATH,
+  TEST_SIX_PATH,
 } from "./constants/route";
 
 export default {
@@ -34,6 +38,8 @@ export default {
       TEST_TWO_PATH,
       TEST_THREE_PATH,
       TEST_FOUR_PATH,
+      TEST_FIVE_PATH,
+      TEST_SIX_PATH,
     };
   },
 };
